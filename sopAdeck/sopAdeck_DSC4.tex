@@ -1,0 +1,90 @@
+\documentclass[11pt,a4paper]{article} %declare the document type
+
+%define required packages
+\usepackage[top=2cm,bottom=2cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage[skip=10pt plus1pt, indent=30pt]{parskip}
+
+%encodings
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+%\usepackage{fontspec} %for xelatex or lulalatex
+
+%setfonts
+\usepackage{mathptmx} %like times new roman. others are mathrsfs,microtype,tgbonum
+
+%color icons and maybe text
+\usepackage{graphicx,xcolor} % Required for inserting images
+\usepackage[colorlinks=true,urlcolor=mylinks,linkcolor=mylinks
+]{hyperref}
+
+%icons
+\usepackage{fontawesome5}
+
+%how to present info
+\usepackage{longtable}
+\usepackage{tabularx,tabulary,multirow}
+
+%misc
+\usepackage{moresize}
+
+%dummy text
+\usepackage{blindtext}
+\pagestyle{empty} % suppresses page numbers
+
+%define the color as indicated in the README
+\definecolor{mylinks}{RGB}{21, 92, 78}
+
+%document start
+\begin{document}
+
+%header
+%\textbf{Brown University}
+%\textbf{University of Houston}
+\begin{center}
+\begin{tabularx}{1.0\textwidth}{X r r}
+\textbf{Tingwei Adeck} & \multicolumn{2}{r}{\faIcon{mobile} +1 816-562-2583} \\
+\textbf{Biostatistics-Health Data Science}  & \multicolumn{2}{r}{\faIcon{envelope}} \href{mailto:awesome.tingwei@outlook.com}{tadeck@outlook.com} \\
+\textbf{Brown University} &  \multicolumn{2}{r}{\faIcon{linkedin} \href{https://www.linkedin.com/in/tingwei-adeck}{Tingwei Adeck}} \\
+\textbf{University of Houston} & \multicolumn{2}{r}{\faIcon{orcid} \href{https://orcid.org/0009-0009-7450-8863}{ORCIDiD}} \\ & 
+  \multicolumn{2}{r}{\faIcon{github} \href{https://github.com/AlphaPrime7}{GitHub}}
+\end{tabularx}
+\par\noindent\rule{\textwidth}{1.25pt}
+\end{center}
+
+
+%}
+\noindent Dear Recruitment Committee, 
+
+\par
+
+{The \textbf{Data Science for Energy transition} program provides a unique opportunity for learners like myself to gain insight into the scientific concepts that drive energy production in the United States and the globe at large. It is an opportunity that seems serendipitous but aligns perfectly with my current interests. I believe by the Grace of God that the 2025-2026 cohort is meant to be an important part of my data science specialization journey. With my background in data science and a strong passion for utilizing data to solve problems, I am motivated to learn and contribute to this amazing initiative.}
+
+\par
+
+{As a master’s student in Biostatistics-Health Data Science at Brown University, I have gained a strong foundation in statistics and statistical programming and I am still improving on these concepts as the program continues. The academic journey at Brown has equipped me with analytical and technical skills that are essential in addressing most real-world data science problems which I believe extends to sustainable energy problems. The Brown program has reinforced and validated my proficiency in R and the program has extended my use of RStudio towards making professional markdown reports, fine-tuning my development of Shiny apps and taking advantage of all the features offered in the RStudio IDE. I am thrilled to get an opportunity to bring my skillset into a collaborative setting that targets an important problem like sustainable energy.}
+
+\par
+
+{Prior to Brown University, I enjoyed building 2 R packages that have gathered a good number of downloads from the CRAN repository. One of the packages normfluodbf was a niche package that facilitated the analysis of data from liposome flux assays which is an assay used for high throughput drug screening in academic and perhaps pharmaceutical milieus. The development of the normfluodbf package spanned the gamut of basic data analysis to S3 classes in R and through this package I felt a deeper connection to the R ecosystem. While in the Brown program, I spend time outside of coursework formulating ideas for addressing the issues of big data in R although this endeavor is at its incipient stage. There are some solutions to big data like polars and arrow but I think it might be a good idea to understand how these big data packages work and find ways to develop a new one if possible. My experience also includes the development of 2 python packages hosted on PyPi which showcases my versatility in programming and I will be bringing all these skills to the program.There is more to my technology stack but I have pointed out the technologies I use which will be valuable to the sustainable energy data science program.}
+
+\par
+
+{My academic or professional goal of gaining maximum exposure to real-world data problems; intersect or overlaps with the energy transition data science program. The program’s aspects of faculty mentorship, data sets from industry partners, communication skills through presentations and interacting with peers, provides an extra pull-in. I am confident that such an experience will sharpen my data science skills, increase my exposure to data problems, and enable me to contribute in a meaningful way to the changing landscape of sustainable energy.}
+
+\par
+
+{Thanks in advance for the opportunity to be a part of this 2025-2026 cohort and I will put my best foot forward in helping the program achieve its goals.}
+
+\par
+
+\begin{center}
+\begin{tabularx}{1.0\textwidth}{X r r}
+Sincerely, & {} \\
+Tingwei Adeck, & {} \\
+Data Scientist, & {} \\
+Brown University & \raisebox{-0.3\height}{\includegraphics[width=1.5cm]{brown_logo.png}} \\
+University of Houston & \raisebox{-0.3\height}{\includegraphics[width=1.1cm]{uh_logo.png}}
+\end{tabularx}
+\end{center}
+\end{document}
+

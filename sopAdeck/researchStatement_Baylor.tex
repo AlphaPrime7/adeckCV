@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{article} %declare the document type
+
+%define required packages
+\usepackage[top=2cm,bottom=2cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage[skip=10pt plus1pt, indent=30pt]{parskip}
+
+%encodings
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+%\usepackage{fontspec} %for xelatex or lulalatex
+
+%setfonts
+\usepackage{mathptmx} %like times new roman. others are mathrsfs,microtype,tgbonum
+
+%color icons and maybe text
+\usepackage{graphicx,xcolor} % Required for inserting images
+\usepackage[colorlinks=true,urlcolor=mylinks,linkcolor=mylinks
+]{hyperref}
+
+%icons
+\usepackage{fontawesome5}
+
+%how to present info
+\usepackage{longtable}
+\usepackage{tabularx,tabulary,multirow}
+
+%misc
+\usepackage{moresize}
+
+%dummy text
+\usepackage{blindtext}
+\pagestyle{empty} % suppresses page numbers
+
+%define the color as indicated in the README
+\definecolor{mylinks}{RGB}{21, 92, 78}
+
+%document start
+\begin{document}
+
+%header
+%\textbf{Brown University}
+%\textbf{University of Houston}
+\begin{center}
+\begin{tabularx}{1.0\textwidth}{X r r}
+\textbf{Tingwei Adeck} & \multicolumn{2}{r}{\faIcon{mobile} +1 816-562-2583} \\
+\textbf{Biostatistics-Health Data Science}  & \multicolumn{2}{r}{\faIcon{envelope}} \href{mailto:awesome.tingwei@outlook.com}{tadeck@outlook.com} \\
+\textbf{Brown University} &  \multicolumn{2}{r}{\faIcon{linkedin} \href{https://www.linkedin.com/in/tingwei-adeck}{Tingwei Adeck}} \\
+\textbf{University of Houston} & \multicolumn{2}{r}{\faIcon{orcid} \href{https://orcid.org/0009-0009-7450-8863}{ORCIDiD}} \\ & 
+  \multicolumn{2}{r}{\faIcon{github} \href{https://github.com/AlphaPrime7}{GitHub}}
+\end{tabularx}
+
+\begin{center}
+\textbf{Research Experience Summary}
+\end{center}
+\par\noindent\rule{\textwidth}{1.25pt}
+\end{center}
+
+
+%}
+
+\par
+
+{My research experience in the biological sciences is diverse at both the undergraduate and PhD level. My research experience was gained in 2 major instituitons namely West Texas A \& M University and the University of Missouri Kansas City.}
+
+\par
+
+{My undergraduate research experience was focused on circadian rhythms by investigating the role of Tryptophan Hydroxylase (Tph-1) as a mediator in the circadian regulation of gastrointestinal motility and serotonin biosynthesis in Daytime Restricted Fed (DRF) mice. The research involved RNA synthesis, cDNA synthesis and polymerase chain reactions to quantify the fluctuation of Tph-1 in mice at different circadian timepoints. The research culminated in validation of the research protocol that will be used by future lab members after my graduation from the program.}
+
+
+{My graduate research experience was diverse and spanned the fields of chronobiology, electrophysiology and microbiology. My PhD lab rotations involved investigating the association between some clock genes by visually investigating colocalization within fruit fly eyes by confocal microscopy; liposome flux assays for the investigation of Sodium voltage gated channels; and investigating the association of key genes (and their mutants) in conferring bacterial resitance to antibiotics. My research experience utilized wet lab and dry lab procedures to arrive at impactful results. All the lab rotations were successful resulting in seminar presentations (following submission of an independent abstract) to faculty and peers at the conclusion of each presentation.}
+
+\par
+
+{Following my tenure as a researcher, I observed the transferability of my skills in building Computer software geared towards analyzing the same data I struggled in analyzing while doing my graduate studies. I have performed research in R programming and Python programming resulting in the publication of 2 packages in both CRAN and PyPi.}
+
+
+\par
+
+{I bring years of wet and dry lab experience to the Baylor program and this program cannot go wrong with my research skills. My skills box contains basic to advanced biological techniques and a strong foundation in the analysis of data from research pipelines. My research experience simply strengthens the fact that I will be able to connect backend procedures to data analysis but I must reiterate my interest is solely in the \textbf{Quantitative and Computational Biosciences} program at Baylor University}.
+
+\par
+
+\begin{center}
+    \begin{tabularx}{1.0\textwidth}{X r r}
+      Sincerely, & {} \\
+      Tingwei Adeck, & {} \\
+      Data Scientist, & {} \\
+      Brown University & \raisebox{-0.3\height}{\includegraphics[width=1.5cm]{brown_logo.png}} \\
+      University of Houston & \raisebox{-0.3\height}{\includegraphics[width=1.1cm]{uh_logo.png}}
+    \end{tabularx}
+\end{center}
+\end{document}
+

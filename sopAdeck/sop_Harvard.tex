@@ -1,0 +1,90 @@
+\documentclass[11pt,a4paper]{article} %declare the document type
+
+%define required packages
+\usepackage[top=2cm,bottom=2cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage[skip=10pt plus1pt, indent=30pt]{parskip}
+
+%encodings
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+%\usepackage{fontspec} %for xelatex or lulalatex
+
+%setfonts
+\usepackage{mathptmx} %like times new roman. others are mathrsfs,microtype,tgbonum
+
+%color icons and maybe text
+\usepackage{graphicx,xcolor} % Required for inserting images
+\usepackage[colorlinks=true,urlcolor=mylinks,linkcolor=mylinks
+]{hyperref}
+
+%icons
+\usepackage{fontawesome5}
+
+%how to present info
+\usepackage{longtable}
+\usepackage{tabularx,tabulary,multirow}
+
+%misc
+\usepackage{moresize}
+
+%dummy text
+\usepackage{blindtext}
+\pagestyle{empty} % suppresses page numbers
+
+%define the color as indicated in the README
+\definecolor{mylinks}{RGB}{21, 92, 78}
+
+%document start
+\begin{document}
+
+%header
+%\textbf{Brown University}
+%\textbf{University of Houston}
+\begin{center}
+    \begin{tabularx}{1.0\textwidth}{X r r}
+      \textbf{Tingwei Adeck} & \multicolumn{2}{r}{\faIcon{mobile} +1 816-562-2583} \\
+        \textbf{Biostatistics-Health Data Science}  & \multicolumn{2}{r}{\faIcon{envelope}} \href{mailto:awesome.tingwei@outlook.com}{tadeck@outlook.com} \\
+         \textbf{Brown University} &  \multicolumn{2}{r}{\faIcon{linkedin} \href{https://www.linkedin.com/in/tingwei-adeck}{Tingwei Adeck}} \\
+         \textbf{University of Houston} & \multicolumn{2}{r}{\faIcon{orcid} \href{https://orcid.org/0009-0009-7450-8863}{ORCIDiD}} \\ & 
+        \multicolumn{2}{r}{\faIcon{github} \href{https://github.com/AlphaPrime7}{GitHub}}
+    \end{tabularx}
+    \par\noindent\rule{\textwidth}{1.25pt}
+\end{center}
+
+
+%}
+\noindent Dear Recruitment Committee, 
+
+\par
+
+{I am writing to express my interest in the \textbf{Computational Statistics Research Internship} at the Harvard University. Given my passion for data science, I was immediately captivated by the opportunity to join the Bioinformatics and Computational Biology Department at Harvard Medical School.}
+
+\par
+
+{As a master’s student in Biostatistics-Health Data Science at Brown University, I have gained a strong foundation in statistics and statistical programming and I am still improving on these concepts as the program continues. The academic journey at Brown has equipped me with analytical and technical skills that are essential in addressing most real-world data science problems in the biological sciences and public health fields. The Brown program has reinforced and validated my proficiency in R and the program has extended my use of RStudio towards making professional markdown reports, fine-tuning my development of Shiny apps and taking advantage of all the features offered in the RStudio IDE. I am thrilled to get an opportunity to bring my skillset into a collaborative setting that targets important problems in the genomic field.}
+
+\par
+
+{Prior to Brown University, I enjoyed building 2 R packages (\href{https://alphaprime7.github.io/tidyDenovix/}{\textcolor{gray}{tidyDenovix}} and \href{https://alphaprime7.github.io/normfluodbf/}{\textcolor{gray}{normfluodbf}}) that have gathered a good number of downloads from the CRAN repository. One of the packages \href{https://alphaprime7.github.io/normfluodbf/}{\textcolor{gray}{normfluodbf}} was a niche package that facilitated the analysis of data from liposome flux assays which is an assay used for high throughput drug screening in academic and perhaps pharmaceutical milieus. The development of the \href{https://alphaprime7.github.io/normfluodbf/}{\textcolor{gray}{normfluodbf}} package spanned the gamut of basic data analysis to S3 classes in R and through this package I felt a deeper connection to the R ecosystem. My experience also includes the development of 2 python packages (\href{https://pypi.org/project/arrimputer/1.3.0/}{\textcolor{gray}{arrimputer}} and \href{https://pypi.org/project/faced/}{\textcolor{gray}{faced}}) hosted on PyPi which showcases my versatility in programming and I will be bringing all these skills to the internship.There is more to my technology stack but I have pointed out the technologies I use which will be valuable to the sustainable energy data science program.}
+
+\par
+
+{My academic or professional goal of gaining maximum exposure to real-world data problems; intersect or overlaps with the computational statistics internship. My career plan is to advance into a full time role in bioinformatics or public health data science. My future contributions to the field of bioinformatics should involve building R packages that tackle relevant problems in biology and public health.}
+
+\par
+
+{I am a candidate you will not want to pass on and I will be invaluable to any research project and I am open to discussions on employment conditions that maximize my potential.My resume/CV will also be a good point of reference for details on my previous endeavors and a showcase of some achievements I am extremely proud of. I look forward to hearing from the recruitment team.}
+
+\par
+
+\begin{center}
+    \begin{tabularx}{1.0\textwidth}{X r r}
+      Sincerely, & {} \\
+      Tingwei Adeck, & {} \\
+      Data Scientist, & {} \\
+      Brown University & \raisebox{-0.3\height}{\includegraphics[width=1.5cm]{brown_logo.png}} \\
+      University of Houston & \raisebox{-0.3\height}{\includegraphics[width=1.1cm]{uh_logo.png}}
+    \end{tabularx}
+\end{center}
+\end{document}
+

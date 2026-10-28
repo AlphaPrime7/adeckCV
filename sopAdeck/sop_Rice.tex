@@ -1,0 +1,92 @@
+\documentclass[11pt,a4paper]{article} %declare the document type
+
+%define required packages
+\usepackage[top=2cm,bottom=2cm,left=1.5cm,right=1.5cm]{geometry}
+\usepackage[skip=10pt plus1pt, indent=30pt]{parskip}
+
+%encodings
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+%\usepackage{fontspec} %for xelatex or lulalatex
+
+%setfonts
+\usepackage{mathptmx} %like times new roman. others are mathrsfs,microtype,tgbonum
+
+%color icons and maybe text
+\usepackage{graphicx,xcolor} % Required for inserting images
+\usepackage[colorlinks=true,urlcolor=mylinks,linkcolor=mylinks
+]{hyperref}
+
+%icons
+\usepackage{fontawesome5}
+
+%how to present info
+\usepackage{longtable}
+\usepackage{tabularx,tabulary,multirow}
+
+%misc
+\usepackage{moresize}
+
+%dummy text
+\usepackage{blindtext}
+\pagestyle{empty} % suppresses page numbers
+
+%define the color as indicated in the README
+\definecolor{mylinks}{RGB}{21, 92, 78}
+
+%document start
+\begin{document}
+
+%header
+%\textbf{Brown University}
+%\textbf{University of Houston}
+\begin{center}
+    \begin{tabularx}{1.0\textwidth}{X r r}
+      \textbf{Tingwei Adeck} & \multicolumn{2}{r}{\faIcon{mobile} +1 816-562-2583} \\
+        \textbf{Biostatistics-Health Data Science}  & \multicolumn{2}{r}{\faIcon{envelope}} \href{mailto:awesome.tingwei@outlook.com}{tadeck@outlook.com} \\
+         \textbf{Brown University} &  \multicolumn{2}{r}{\faIcon{linkedin} \href{https://www.linkedin.com/in/tingwei-adeck}{Tingwei Adeck}} \\
+         \textbf{University of Houston} & \multicolumn{2}{r}{\faIcon{orcid} \href{https://orcid.org/0009-0009-7450-8863}{ORCIDiD}} \\ & 
+        \multicolumn{2}{r}{\faIcon{github} \href{https://github.com/AlphaPrime7}{GitHub}}
+    \end{tabularx}
+    \par\noindent\rule{\textwidth}{1.25pt}
+\end{center}
+
+
+%}
+\noindent Dear Recruitment Committee, 
+
+\par
+
+{I am writing to express my interest solely in the \textbf{Biostatistics} program at Rice University. Given my passion for data science, I was immediately captivated by the opportunity to join the Biostatistics program at Rice.}
+
+\par
+
+{As a master’s student in Biostatistics-Health Data Science at Brown University, I have gained a strong foundation in statistics and statistical programming and I am still improving on these concepts as the program continues. The academic journey at Brown has equipped me with analytical and technical skills that are essential in addressing most real-world data science problems in the biological sciences and public health fields. The Brown program has reinforced and validated my proficiency in R and the program has extended my use of RStudio towards making professional markdown reports, fine-tuning my development of Shiny apps and taking advantage of all the features offered in the RStudio IDE. I am thrilled to get an opportunity to bring my skillset into a collaborative setting that targets important problems in the genomic field.
+An energy transition data science internship at the University of Houston gave me the opportunity to apply advanced statistical techniques in tackling energy transtion problems. In this program I started development of an interactive shiny app for data wrangling and evolved my skills by applying machine learning techniques in making oil well drilling decisions based on data from reputable energy companies.}
+
+\par
+
+{Prior to Brown University and the University of Houston, I earned my MS in Cell and Molecular Biology after spending a year completing PhD rotations at 4 labs in the University of Missouri Kansas City. The lab rotations led to a breaktrhough by unlocking my passion for combining data science and biological data. After completing my MS in Biology, I enjoyed building 2 R packages (\href{https://alphaprime7.github.io/tidyDenovix/}{\textcolor{gray}{tidyDenovix}} and \href{https://alphaprime7.github.io/normfluodbf/}{\textcolor{gray}{normfluodbf}}) that have gathered a good number of downloads from the CRAN repository. One of the packages \href{https://alphaprime7.github.io/normfluodbf/}{\textcolor{gray}{normfluodbf}} was a niche package that facilitated the analysis of data from liposome flux assays which is an assay used for high throughput drug screening in academic and perhaps pharmaceutical milieus. Am I motivated to study science and the pursuit for knowledge? Yes, I believe a fundamental part of being God's creation is a desire to understand the things HE created and so earning my terminal degree in this endeavor is my destiny. I believe and know that the Rice program has access to tremendous amounts of data that can be put into good use for furthering scientific knowledge and I also believe the age of Artificial Intelligence further strengthens our abilities to harness information to solve scientific problems and I want to be a part of the ride.}
+
+\par
+
+{My pathway into the Rice program was through the MDAnderson Cancer Center Biostatistics program. My interest in working for MDAnderson exposed me to the joint program with Rice hence my application to the PhD program. My previous research involved developing an R package for the analysis of data from liposome flux assays as a tool for high throughput drug screening and so I am in search of other computational methods that can help in advancing the field of drug development. Of course, I am open to other opportunities out there but I do have a keen interest in drug development data analysis.}
+
+
+\par
+
+{I am a candidate you will not want to pass on and I will be invaluable to any research projects at Rice. I have ample confidence that my Ivy league education at Brown has given me the confidence to tackle new challenges by leveraging the foundations set by my current mentors. I look forward to being a part of Rice.}
+
+\par
+
+\begin{center}
+    \begin{tabularx}{1.0\textwidth}{X r r}
+      Sincerely, & {} \\
+      Tingwei Adeck, & {} \\
+      Data Scientist, & {} \\
+      Brown University & \raisebox{-0.3\height}{\includegraphics[width=1.5cm]{brown_logo.png}} \\
+      University of Houston & \raisebox{-0.3\height}{\includegraphics[width=1.1cm]{uh_logo.png}}
+    \end{tabularx}
+\end{center}
+\end{document}
+
