@@ -1,0 +1,246 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adeck CV
+% LaTeX Template
+% Version 1.0 (02/08/2025)
+%
+% This template originates from:
+  % http://www.LaTeXTemplates.com
+%
+% Author:
+  % Tingwei Adeck
+% License:
+  % The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+  %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+  \documentclass[9pt]{adeckcv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+  
+  \begin{document}
+
+%----------------------------------------------------------------------------------------
+  %	CV HEADER
+%----------------------------------------------------------------------------------------
+  
+  \cvheader{Tingwei}{Adeck}{Data Scientist}
+{Dallas, Texas}{+1 (816)-562-2583}{awesome.tingwei@outlook.com}{https://github.com/AlphaPrime7/}{https://www.linkedin.com/in/tingwei-adeck}{https://orcid.org/0009-0009-7450-8863}
+
+%----------------------------------------------------------------------------------------
+  %	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+  
+  \cvsectiontitle{Executive Summary}
+
+\begin{minipage}[t]{0.4\textwidth}
+\vspace{-\baselineskip} 
+
+\executiveSummary {Data Scientist and Tech Enthusiast with 2+ years of building data software solutions in languages like R and python that have served over 1000 people.}
+{Developer of 2 R packages \href{https://alphaprime7.github.io/normfluodbf/}{\textcolor{gray}{normfluodbf}} and \href{https://alphaprime7.github.io/tidyDenovix/}{\textcolor{gray}{tidyDenovix}} that have over 3000 downloads combined. 2 Python packages developed on the concepts of Image manipulation and Machine Learning; utilizing libraries like Pillow, OpenCV, pandas, and numpy. }
+{Currently training at Brown University's Biostatistics Health Data Science (BHDS) program in the \href{https://sph.brown.edu/}{\textcolor{gray}{School of Public Health}}; \space learning statistical, machine learning and AI concepts applicable to the current global state. }
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{R}{100}
+		\baritem{Python}{100}
+		\baritem{Git}{100}
+		\baritem{SPSS/SAS}{100}
+		\baritem{Excel}{100}
+		\baritem{SQL}{100}
+		\baritem{Ggplot}{100}
+		\baritem{Statistics}{100}
+		\baritem{Machine Learning}{80}
+		\baritem{Artificial Intelligence}{80}
+		\baritem{LaTeX}{20}
+	\end{barchart}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsectiontitle{Experience}
+%\begin{longtable}{@{}l l@{}}
+\begin{entrylist}
+    \entry
+        {\large{University of Houston}} 
+        {Houston, Texas}
+        {\large{Data Science Energy Transtion Intern}}
+        {May 12th 2025 -- Now}
+        {\itemizeexperience
+        {Performed multiple regression analyses (both univariate and multivariate) on global energy datasets to identify key drivers of energy consumption patterns across regions. Delivered insights that informed sustainable energy planning strategies.}
+        {Conducted hypothesis testing using data from Randomized Controlled Trials (RCTs) to rigorously evaluate the causal impact of interventions on energy usage outcomes. Applied statistical inference techniques to draw valid conclusions and guide policy decisions.}
+{Designed and developed "DataAnal", a versatile R Shiny application enabling users to import and preprocess data from diverse formats including .dta, .sas7bdat, .ods, and more. The app supports core data wrangling features and is actively being enhanced to include advanced visualization and statistical modules.
+}
+\texttt{R}\slashsep
+\texttt{RStudio}\slashsep
+\faMarkdown\slashsep
+\texttt{LaTeX}\slashsep
+\texttt{RShiny}\slashsep
+\faWindows\slashsep 
+\faLinux\slashsep
+%\vspace{0cm}
+}
+\entry
+{\large{Amazon Inc.}}
+{Gardner, Kansas}
+{\large{Area Manager Fulfillment Center}}
+{2022 -- 2024}
+{\itemizeexperience
+  {Led package dispatch operations, ensuring smooth coordination between fulfillment processes and outbound logistics while adhering to Service Level Agreements (SLAs).}
+  {Oversaw order fulfillment operations, ensuring accurate sorting, staging, and processing of customer packages to meet performance and quality standards.}
+  {Implemented process improvements to enhance productivity, reduce bottlenecks, and maintain high safety and operational standards.}
+  \faAmazon\slashsep
+  \faWarehouse
+}
+\entry
+{\large{University of Missouri Kansas City}}
+{Kansas City, Missouri}
+{\large{Graduate Research Assistant}}
+{2020 -- 2022}
+{\itemizeexperience
+  {Performed research in the lab of Dr. Wang, on liposome flux assays; a high throughput system for drug screening. }
+  {Developed the protocol based on existing \href{https://www.pnas.org/doi/10.1073/pnas.1602815113}{\textcolor{gray}{literature}} from a renowned researcher in the field known as Roderick MacKinnon, as directed by the Principal Investigator (PI).}
+  {Performed the wet lab experiments as directed by the PI, performed data analysis on data sets obtained from the experiments and presented the results of research findings to faculty, staff and peers in research seminars at the institution.}
+  %{Presented the results of research findings to faculty, staff and peers in research seminars at the institution.} \\
+  \texttt{R}\slashsep
+  \texttt{RStudio}\slashsep
+  \faDna\slashsep
+  \faSlideshare
+}
+\end{entrylist}
+%\end{longtable}
+
+\newpage
+
+
+%----------------------------------------------------------------------------------------
+  %	EDUCATION
+%----------------------------------------------------------------------------------------
+  
+  \cvsectiontitle{Education}
+
+\begin{entrylist}
+\entry
+{\large{Brown University}} 
+{Providence, Rhode Island}
+{ScM Biostatistics Health Data Science}
+{2025 -- Now}
+{\itemizeeducationtwo
+  {Enrolled as a Graduate Masters student in Biostatistics and Health Data Science.}
+}
+\entry
+{\large{University of Missouri Kansas City}} 
+{Kansas City, Missouri}
+{Biology/Bioinformatics}
+{2022}
+{\itemizeeducationone
+  {Performed graduate PhD research in the fields of Chronobiology, Plant Biology, Electrophysiology and Microbiology in the Price, May, Wang and Oconnor labs.}
+  {Earned a Masters of Science in Cell and Molecular Biology.}
+}
+\entry
+{\large{West Texas A \& M University}} 
+{Canyon, Texas}
+{Biology/Chronobiology/Business}
+{2015 -- 2018}
+{\itemizeeducationtwo
+  {Earned a BS degree in Biology with research emphasis on chronobiology.}
+}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+  %	PROJECTS OVER COURSEWORK
+%----------------------------------------------------------------------------------------
+  
+  \cvsectiontitle{Projects}
+
+\project
+{\href{https://alphaprime7.github.io/normfluodbf/}{\textbf{ \textcolor{gray}{Normfluodbf}} }}
+{}
+{}
+{}
+{An R Package and demo shiny app for the analysis and visualization of data from liposome flux assays.}
+{The package provides a modular data analysis pipeline for importing data, analyzing data and visualizing data.}
+
+\project
+{\href{https://alphaprime7.github.io/tidyDenovix/}{\textbf{ \textcolor{gray}{TidyDenovix}} }}
+{}
+{}
+{}
+{An R Package for the analysis of data from the Denovix DS family of spectrophotometers.}
+{Utilization of the tidyVerse in R for the creation of packages.}
+
+\project
+{\href{https://github.com/bhds2010/randvar}{\textbf{ \textcolor{gray}{RandVar}} }}
+{}
+{}
+{}
+{An R Shiny App for the exploration of statistical distribution types.}
+{Utilized R's shiny framework to build a web app used in the exploration of statistical distribution types.}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip}
+	\cvsectiontitle{Relevant Courses}
+	\\
+	\textbf{\large{\textit{Econometrics}}} \\
+  \textbf{\large{\textit{Introductory Biometry}}} \\
+  \textbf{\large{\textit{Calculus I}}} \\
+  \textbf{\large{\textit{Calculus II}}} \\
+  \textbf{\large{\textit{Applied Biostatistics I (SPSS)}}} \\
+  \textbf{\large{\textit{Intro to SAS}}} \\
+  \textbf{\large{\textit{Intro to SQL}}} \\
+  \textbf{\large{\textit{Python Basics}}} -Coursera \\
+  \textbf{\large{\textit{Python classes and inheritance}}} -Coursera \\
+  \textbf{\large{\textit{Python Functions, files and dictionaries}}} -Coursera \\
+  \textbf{\large{\textit{Data collection and processing with Python}}} -Coursera \\
+  \textbf{\large{\textit{Python Project: Pillow, tesseract and OpenCV}}} -Coursera \\
+  \textbf{\large{\textit{Agile project management}}} -Coursera \\
+  \textbf{\large{\textit{Probability and Statistical Inferencing}}} - Brown \\
+  \textbf{\large{\textit{Statistical Programming}}} - Brown \\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\cvsectiontitle{Hobbies}
+	\\
+	\textbf{Sports} - Tennis\\
+	\textbf{Sports} - BasketBall\\
+	\textbf{Gaming} - Horizon Forbidden West \\
+	\textbf{Gaming} - Outriders \\
+	\textbf{Gaming} - Call of Duty \\
+	\textbf{Gaming} - Ghost Recon Breakpoint \\
+	\textbf{Gaming} - Avengers \\
+	\textbf{Gaming} - WatchDogs 2 \& Legion \\
+	\textbf{Gaming} - Uncharted \\
+	\textbf{Gaming} - Battlefield \\
+	\textbf{Gaming} - Quantum Break \\
+	\textbf{Gaming} - Tomb Raider \\
+	\textbf{Gaming} - Efootball \\
+	\textbf{Gaming} - NBA2K22 \\
+	\textbf{YouTube} - \href{https://www.youtube.com/@t2serenegamers67}{\textcolor{gray}{T2SereneGamers}} \\
+	\textbf{YouTube} - \href{https://www.youtube.com/@gameophir5827}{\textcolor{gray}{GameOphir}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsectiontitle{Languages}
+	\\
+	\textbf{English} - native\\
+	\textbf{French} - native\\
+	\textbf{Spanish} - rudimentary
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
